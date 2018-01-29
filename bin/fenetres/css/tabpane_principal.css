@@ -1,0 +1,41 @@
+#principaltabpane{
+	-fx-tab-min-height: 12em;
+	-fx-tab-max-height:12em;
+	-fx-tab-min-width:9em;
+	-fx-tab-max-width:9em;
+	-fx-border-width:2 2 0 2;
+	-fx-border-color:rgb(0,128,128);
+}
+
+.tab{
+	-fx-background-color:rgb(0,128,128, 0.4);
+	-fx-alignment:center ;
+}
+
+.tab .button{
+}
+
+.tab{
+	-fx-background-insets:0.0 ;
+	-fx-background-radius:0.0 ;
+	-fx-padding:0;
+	-fx-background-color:transparent;
+	-fx-pref-width:100;
+	
+}
+
+.tab:hover{
+	-fx-padding:0;
+	-fx-background-insets:0.0 ;
+	-fx-background-radius:0.0 ;
+	-fx-background-color:rgb(0,128,128);
+	
+}
+
+
+.tab:selected{
+	-fx-background-color:rgb(0,128,128);
+	
+}
+
+

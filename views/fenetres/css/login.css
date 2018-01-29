@@ -1,0 +1,16 @@
+#conteneurlogin{
+	-fx-background-color:#333;
+	-fx-text-fill:#FFF;
+}
+
+.textfield{
+	-fx-pref-height:60;
+	-fx-pref-width:60;
+	-fx-border-radius:0;
+	-fx-border-width:0 0 2 0;
+	-fx-border-color:#FFF;
+}
+
+.button{
+	-fx-border-radius:0;
+}

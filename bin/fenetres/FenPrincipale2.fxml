@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="conteneurprincipal" prefHeight="500.0" prefWidth="800.0" stylesheets="@css/styleprincipal.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="500.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <TabPane fx:id="principaltabpane" prefHeight="200.0" prefWidth="200.0" side="RIGHT" stylesheets="@css/tabpane_principal.css" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+              <tabs>
+                <Tab>
+                  <content>
+                    <AnchorPane prefHeight="498.0" prefWidth="620.0">
+                           <children>
+                              <TabPane fx:id="tabpane" prefHeight="498.0" prefWidth="555.0" side="BOTTOM" stylesheets="@css/tabpane.css" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <tabs>
+                                  <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="100.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu" fontSmoothingType="LCD" glyphName="USER_PLUS" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                  </Tab>
+                                  <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="92.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu1" fontSmoothingType="LCD" glyphName="SEARCH" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                  </Tab>
+                                    <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="92.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu11" fontSmoothingType="LCD" glyphName="PENCIL_SQUARE_ALT" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                    </Tab>
+                                    <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="92.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu12" fontSmoothingType="LCD" glyphName="USER_TIMES" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                    </Tab>
+                                    <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="92.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu13" fontSmoothingType="LCD" glyphName="SEARCH" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                    </Tab>
+                                    <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="97.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu131" fontSmoothingType="LCD" glyphName="PRINT" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                    </Tab>
+                                    <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="92.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu132" fontSmoothingType="LCD" glyphName="UPLOAD" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                    </Tab>
+                                </tabs>
+                              </TabPane>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                     <graphic>
+                        <Button alignment="CENTER" mnemonicParsing="false" prefHeight="36.0" prefWidth="111.0" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                           <graphic>
+                              <FontAwesomeIconView fontSmoothingType="LCD" glyphName="HOME" size="60" textAlignment="CENTER" wrappingWidth="147.71428298950195" />
+                           </graphic>
+                        </Button>
+                     </graphic>
+                </Tab>
+                <Tab>
+                     <graphic>
+                        <Button alignment="CENTER" mnemonicParsing="false" prefHeight="58.0" prefWidth="100.0">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                           <graphic>
+                              <FontAwesomeIconView glyphName="USERS" size="60" text="" textAlignment="CENTER" wrappingWidth="146.92856788635254" />
+                           </graphic>
+                        </Button>
+                     </graphic>
+                     <content>
+                        <AnchorPane prefHeight="498.0" prefWidth="620.0">
+                           <children>
+                              <TabPane fx:id="tabpane1" prefHeight="498.0" prefWidth="555.0" side="BOTTOM" stylesheets="@css/tabpane.css" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <tabs>
+                                    <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="100.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu1" fontSmoothingType="LCD" glyphName="USER_PLUS" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                    </Tab>
+                                    <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="92.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu11" fontSmoothingType="LCD" glyphName="SEARCH" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                    </Tab>
+                                    <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="92.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu111" fontSmoothingType="LCD" glyphName="PENCIL_SQUARE_ALT" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                    </Tab>
+                                    <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="92.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu121" fontSmoothingType="LCD" glyphName="USER_TIMES" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                    </Tab>
+                                    <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="92.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu131" fontSmoothingType="LCD" glyphName="NEWSPAPER_ALT" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                    </Tab>
+                                    <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="97.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu1311" fontSmoothingType="LCD" glyphName="PRINT" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                    </Tab>
+                                    <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="92.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu1321" fontSmoothingType="LCD" glyphName="UPLOAD" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                    </Tab>
+                                 </tabs>
+                              </TabPane>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                </Tab>
+                  <Tab>
+                    <content>
+                      <AnchorPane prefHeight="498.0" prefWidth="610.0">
+                           <children>
+                              <TabPane fx:id="tabpane2" prefHeight="648.0" prefWidth="1047.0" side="BOTTOM" stylesheets="@css/tabpane.css" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <tabs>
+                                    <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="100.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu11" fontSmoothingType="LCD" glyphName="USER_PLUS" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                    </Tab>
+                                    <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="92.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu111" fontSmoothingType="LCD" glyphName="SEARCH" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                    </Tab>
+                                    <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="92.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu1111" fontSmoothingType="LCD" glyphName="PENCIL_SQUARE_ALT" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                    </Tab>
+                                    <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="92.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu1211" fontSmoothingType="LCD" glyphName="USER_TIMES" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                    </Tab>
+                                    <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="92.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu1311" fontSmoothingType="LCD" glyphName="SEARCH" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                    </Tab>
+                                    <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="97.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu13111" fontSmoothingType="LCD" glyphName="PRINT" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                    </Tab>
+                                    <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="92.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu13211" fontSmoothingType="LCD" glyphName="UPLOAD" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                    </Tab>
+                                 </tabs>
+                              </TabPane>
+                           </children></AnchorPane>
+                    </content>
+                     <graphic>
+                        <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="0.0" prefWidth="163.0">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                           <graphic>
+                              <FontAwesomeIconView glyphName="FOLDER_OPEN_ALT" size="60" text="" textAlignment="CENTER" wrappingWidth="105.21428680419922" />
+                           </graphic>
+                        </Button>
+                     </graphic>
+                  </Tab>
+                  <Tab>
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <TabPane fx:id="tabpane3" prefHeight="648.0" prefWidth="1047.0" side="BOTTOM" stylesheets="@css/tabpane.css" tabClosingPolicy="UNAVAILABLE">
+                                 <tabs>
+                                    <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="100.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu111" fontSmoothingType="LCD" glyphName="CART_PLUS" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                    </Tab>
+                                    <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="92.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu1111" fontSmoothingType="LCD" glyphName="SEARCH" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                    </Tab>
+                                    <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="92.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu11111" fontSmoothingType="LCD" glyphName="PENCIL_SQUARE_ALT" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                    </Tab>
+                                    <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="92.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu12111" fontSmoothingType="LCD" glyphName="REMOVE_SHOPPING_CART" size="40" text="" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                    </Tab>
+                                    <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="92.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu13111" fontSmoothingType="LCD" glyphName="NEWSPAPER_ALT" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                    </Tab>
+                                    <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="97.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu131111" fontSmoothingType="LCD" glyphName="PRINT" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                    </Tab>
+                                    <Tab>
+                                       <graphic>
+                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="92.0">
+                                             <graphic>
+                                                <FontAwesomeIconView fx:id="iconemenu132111" fontSmoothingType="LCD" glyphName="UPLOAD" size="40" />
+                                             </graphic>
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Button>
+                                       </graphic>
+                                    </Tab>
+                                 </tabs>
+                              </TabPane>
+                           </children></AnchorPane>
+                    </content>
+                     <graphic>
+                        <Button alignment="CENTER" mnemonicParsing="false" prefHeight="111.0" prefWidth="139.0">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                           <graphic>
+                              <FontAwesomeIconView glyphName="SHOPPING_CART" size="60" textAlignment="CENTER" wrappingWidth="140.78571319580078" />
+                           </graphic>
+                        </Button>
+                     </graphic>
+                  </Tab>
+                  <Tab>
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                    </content>
+                     <graphic>
+                        <Button mnemonicParsing="false" prefHeight="0.0" prefWidth="145.0">
+                           <graphic>
+                              <FontAwesomeIconView glyphName="BAR_CHART" size="60" textAlignment="CENTER" wrappingWidth="129.42856979370117" />
+                           </graphic>
+                        </Button>
+                     </graphic>
+                  </Tab>
+                  <Tab>
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="498.0" prefWidth="590.0" />
+                    </content>
+                     <graphic>
+                        <Button alignment="CENTER" mnemonicParsing="false" prefHeight="26.0" prefWidth="114.0" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                           <graphic>
+                              <FontAwesomeIconView glyphName="GEARS" size="60" textAlignment="CENTER" wrappingWidth="143.28571701049805" />
+                           </graphic>
+                        </Button>
+                     </graphic>
+                  </Tab>
+              </tabs>
+            </TabPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
