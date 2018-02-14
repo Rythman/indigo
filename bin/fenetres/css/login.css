@@ -3,12 +3,12 @@
 	-fx-text-fill:#FFF;
 }
 
-.textfield{
-	-fx-pref-height:60;
-	-fx-pref-width:60;
+JFXTextField,JFXPasswordField{
+	-fx-pref-height:50;
 	-fx-border-radius:0;
-	-fx-border-width:0 0 2 0;
-	-fx-border-color:#FFF;
+	-fx-border-width:0 0 0 0;
+	-fx-border-color:rgb(0,128,128);
+	-fx-text-fill:#FFF;
 }
 
 .button{

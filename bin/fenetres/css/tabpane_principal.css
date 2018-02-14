@@ -31,8 +31,13 @@
 
 .tab:hover .button:hover .glyph-icon{
 	-glyph-size:30px;
+	-fx-fill:rgb(128,0,0);
 }
 
+.tab:hover .glyph-icon, .tab:selected .glyph-icon{
+	-glyph-size:30px;
+	-fx-fill:rgb(128,0,0);
+}
 .tab:selected .glyph-icon{
 	-glyph-size:30px;
 }
