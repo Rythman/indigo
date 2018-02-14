@@ -6,7 +6,10 @@
 
 #fond_principal{
 	-fx-background-color:rgb(0,128,128,0.7);
+	-fx-pref-width:700;
+	-fx-padding:10 5em 5 20;	
 }
+
 
 .buttonbar .button{
 	-fx-border-width:3 3 3 3;

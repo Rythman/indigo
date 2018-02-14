@@ -21,7 +21,7 @@ public class Main extends Application {
 		
 		login();
 		initRootLayout();
-		contenu();
+		
 	}
 	
 	public void login() {
@@ -51,17 +51,7 @@ public class Main extends Application {
 		}
 	}
 	
-	public void contenu() {
-		try {
-			FXMLLoader loader = new FXMLLoader();
-			loader.setLocation(Main.class.getResource("/fenetres/FenConnexion.fxml"));
-			AnchorPane tabClient = (AnchorPane) loader.load();
-			
-			rootLayout.setCenter(tabClient);
-		} catch(Exception e) {
-			e.printStackTrace();
-		}
-	}
+
 	
 	public Stage getPrimaryStage() {
 		return primaryStage;

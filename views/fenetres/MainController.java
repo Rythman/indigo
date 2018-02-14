@@ -4,12 +4,14 @@ package fenetres;
 import com.jfoenix.controls.JFXPasswordField;
 import com.jfoenix.controls.JFXTextField;
 
+import application.Main;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
-
+import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
 public class MainController {
@@ -23,6 +25,8 @@ public class MainController {
 	private JFXPasswordField pwd_passe;
 	
 	
+	private BorderPane rootLayout;
+	
 	Stage primaryStage = new Stage();
 	public void login() throws Exception {
 		
@@ -35,6 +39,19 @@ public class MainController {
 		}
 		else {
 			lbl_infoconnexion.setText("Connexion echoue");
+		}
+	}
+	
+	
+	public void contenu() {
+		try {
+			FXMLLoader loader = new FXMLLoader();
+			loader.setLocation(Main.class.getResource("/fenetres/FenConnexion.fxml"));
+			AnchorPane tabClient = (AnchorPane) loader.load();
+			
+			rootLayout.setCenter(tabClient);
+		} catch(Exception e) {
+			e.printStackTrace();
 		}
 	}
 	

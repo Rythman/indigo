@@ -1,11 +1,8 @@
-.borderpane{
+BorderPane{
     -fx-border-width:3 3 3 3;
 	-fx-border-color:rgb(0,128,128);
 	-fx-background-color:rgb(243,243,243);
-}
-
-BorderPane{
-	-fx-background-color:rgb(243,243,243);
+	
 }
 
 .button{
